@@ -3,7 +3,8 @@ package com.filipedev.cardgamecdz.model;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.ArrayList;
+import java.util.List;
+
 
 
 @Setter
@@ -11,7 +12,7 @@ import java.util.ArrayList;
 public class Deck {
 
     private String name;
-    private ArrayList<Card> deckOfCards;
+    private List<Card> deckOfCards;
 
 
     public Card WithdrawCard() {
