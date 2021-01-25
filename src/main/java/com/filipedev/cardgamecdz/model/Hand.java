@@ -13,15 +13,17 @@ public class Hand {
     @Getter
     private List<Card> cardsInHands;
 
+    // private String playerHand
 
-    public void addCardToHand() {
+
+    public void addCardToHand(Card card) {
         Deck deck = new Deck();
 
         if (cardsInHands.size() < 5) {
             cardsInHands.add(0, deck.WithdrawCard());
         } else {
-            cardsInHands.add(5, deck.WithdrawCard());
-            cardsInHands.remove(5);
+            cardsInHands.add(0, deck.WithdrawCard());
+            cardsInHands.remove(0);
         }
 
 
