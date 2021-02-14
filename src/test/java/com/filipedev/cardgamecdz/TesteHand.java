@@ -15,18 +15,15 @@ public class TesteHand {
 
         Hand hand = new Hand();
 
+
         deck_A.shuffleDeck();
+
         hand.getCardsInHands().add(deck_A.WithdrawCard());
         hand.getCardsInHands().add(deck_A.WithdrawCard());
         hand.getCardsInHands().add(deck_A.WithdrawCard());
         System.out.println(hand.getCardsInHands());
 
 
-
-
-
     }
-
-
 
 }

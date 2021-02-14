@@ -14,9 +14,12 @@ public class Hand {
     @Getter
     private List<Card> cardsInHands = new ArrayList<>();
 
+    /*
+
+
     Deck deck = new Deck();
 
-    public void addCardToHand() {        
+    public Hand addCardToHand(Card card) {
         if (cardsInHands.size() < 2) {
              this.getCardsInHands().add(deck.WithdrawCard());            
         } else {        
@@ -24,8 +27,7 @@ public class Hand {
             cardsInHands.remove(0);
         }
 
-
     }
-
+*/
 
 }
