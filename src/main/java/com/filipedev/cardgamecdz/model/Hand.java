@@ -9,6 +9,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 public class Hand {
 
     @Getter
