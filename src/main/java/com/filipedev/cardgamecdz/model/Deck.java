@@ -1,7 +1,6 @@
 package com.filipedev.cardgamecdz.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -10,14 +9,19 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
 public class Deck {
 
-    @Getter
+
     @Setter
     private String name;
 
-    @Getter
+    @Setter
+    private String deckId;
+
     private List<Card> deckOfCards = new ArrayList<>();
 
 
