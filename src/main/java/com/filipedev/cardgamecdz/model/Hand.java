@@ -15,8 +15,6 @@ public class Hand {
     @Getter
     private List<Card> cardsInHands = new ArrayList<>();
 
-    Deck deck;
-
     public void addCardToHand() {
 
 
