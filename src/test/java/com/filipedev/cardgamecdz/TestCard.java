@@ -2,7 +2,7 @@ package com.filipedev.cardgamecdz;
 
 import com.filipedev.cardgamecdz.model.Card;
 
-public class TesteCard {
+public class TestCard {
 
     public static void main(String[] args) {
 

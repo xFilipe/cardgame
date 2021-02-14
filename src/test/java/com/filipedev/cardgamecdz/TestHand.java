@@ -3,7 +3,7 @@ package com.filipedev.cardgamecdz;
 import com.filipedev.cardgamecdz.model.Deck;
 import com.filipedev.cardgamecdz.model.Hand;
 
-public class TesteHand {
+public class TestHand {
 
     public static void main(String[] args) {
 
