@@ -9,11 +9,12 @@ import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
 public class Hand {
 
     @Getter
     private List<Card> cardsInHands = new ArrayList<>();
+
+    Deck deck = new Deck();
 
     public void addCardToHand() {        
         if (cardsInHands.size() < 2) {
