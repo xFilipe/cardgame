@@ -1,7 +1,7 @@
 # cardgamecdz
 
 
-O objetivo do projeto é criar uma versão web do jogo Super Trunfo, com os personagens do anime Cavaleiros do Zodiaco.
+O objetivo do projeto é criar uma versão web do jogo de cartas Super Trunfo, com os personagens do anime Cavaleiros do Zodiaco.
 Posteriormente o sistema poderá também ter uma versão mobile.
 
 
