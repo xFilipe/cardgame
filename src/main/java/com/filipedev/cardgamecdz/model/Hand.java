@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @AllArgsConstructor
@@ -11,17 +12,19 @@ import java.util.List;
 public class Hand {
 
     @Getter
-    private List<Card> cardsInHands;
+    private List<Card> cardsInHands = new ArrayList<>();
 
-    // private String playerHand
+    Deck deck;
+
+    public void addCardToHand() {
 
 
-    public void addCardToHand(Card card) {
-        Deck deck = new Deck();
+        if (cardsInHands.size() < 2) {
 
-        if (cardsInHands.size() < 5) {
-            cardsInHands.add(0, deck.WithdrawCard());
+            this.getCardsInHands().add(deck.WithdrawCard());
+            System.out.println("Aqui no if");
         } else {
+            System.out.println("Aqui no else");
             cardsInHands.add(0, deck.WithdrawCard());
             cardsInHands.remove(0);
         }

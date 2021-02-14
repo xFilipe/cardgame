@@ -14,7 +14,7 @@ public class Player {
     private int lifePoints;
     private Hand hand;
     private Deck deck;
-    private Field field;
+
     // boolean cardSummoned;
 
     Player(String playerName) {
@@ -23,15 +23,18 @@ public class Player {
 
 
     public void summonCard(Card card) {
-        field.getCardZone().add(card);
+    //    field.getCardZone().add(card);
 
     }
 
+    /*
     public Card drawCard(){
         Card card = new Card();
         hand.addCardToHand(card);
         return card;
     }
+
+     */
 
 
 }

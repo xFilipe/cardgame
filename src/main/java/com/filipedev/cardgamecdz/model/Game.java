@@ -7,6 +7,8 @@ import java.util.ArrayList;
 
 public class Game {
 
+    /*
+
     private Player player;
     private Player opponent;
     private Player currentPlayer;
@@ -22,6 +24,7 @@ public class Game {
             }
         }
     }
+
 
     private void createDeck(Player player, String fileName) {
         try {
@@ -63,5 +66,7 @@ public class Game {
         currentPlayer = player;
 
     }
+     */
+
 
 }
