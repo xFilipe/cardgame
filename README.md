@@ -1,4 +1,4 @@
-# cardgamecdz
+# Cavaleiros do Zodíaco CardGame
 
 
 O objetivo do projeto é criar uma versão web do jogo de cartas Super Trunfo, com os personagens do anime Cavaleiros do Zodiaco.
@@ -6,4 +6,4 @@ Posteriormente o sistema poderá também ter uma versão mobile.
 
 
 
-O jogo será desenvolvido em arquitetura REST. Até o momento, o model está quase pronto, restando concluir algumas classes, definir uma classe as regras de jogo, criar o controller, concluir a implementação dos testes, para depois iniciar o desenvolvimento da view.
+O jogo está sendo desenvolvido com Spring Boot em arquitetura REST. Até o momento, o model está quase pronto, restando finalizar a classe responsável pelas regras do jogo, para então partir para as demais do padrão MVC.
