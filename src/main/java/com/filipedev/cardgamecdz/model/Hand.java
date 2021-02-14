@@ -15,13 +15,10 @@ public class Hand {
     @Getter
     private List<Card> cardsInHands = new ArrayList<>();
 
-    public void addCardToHand() {
-
-
+    public void addCardToHand() {        
         if (cardsInHands.size() < 2) {
-
-            this.getCardsInHands().add(deck.WithdrawCard());            
-        } else {            
+             this.getCardsInHands().add(deck.WithdrawCard());            
+        } else {        
             cardsInHands.add(0, deck.WithdrawCard());
             cardsInHands.remove(0);
         }
