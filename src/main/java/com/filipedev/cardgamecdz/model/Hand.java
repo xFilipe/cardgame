@@ -21,10 +21,8 @@ public class Hand {
 
         if (cardsInHands.size() < 2) {
 
-            this.getCardsInHands().add(deck.WithdrawCard());
-            System.out.println("Aqui no if");
-        } else {
-            System.out.println("Aqui no else");
+            this.getCardsInHands().add(deck.WithdrawCard());            
+        } else {            
             cardsInHands.add(0, deck.WithdrawCard());
             cardsInHands.remove(0);
         }
